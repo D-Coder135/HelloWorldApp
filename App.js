@@ -12,7 +12,10 @@ const message = 'Hello World'
 
 function App() {
   return {
+    <View>
     
+
+    </View>
   }
 }
 
