@@ -13,7 +13,7 @@ const message = 'Hello World'
 function App() {
   return (
     // This View tag contains the examples of Inline, Internal and combination of both styling.
-    <View>
+    <View style = {internalStyle.viewStyle}>
     <Text style = {{fontSize: 30, marginTop: 30, textAlign: 'center', color: 'red'}}>{message}</Text> 
     <Text style = {internalStyle.textStyle}>{message}</Text>
     <Text style = {[internalStyle.textStyle, {backgroundColor: 'pink', color: 'yellow'}]}>{message}</Text>
@@ -32,8 +32,9 @@ const internalStyle = StyleSheet.create({
   },
 
   viewStyle: {
-    backgroundColor: 'black',
+    backgroundColor: 'yellow',
     marginBottom: 50,
+    marginTop: 50,
     padding: 40,
 
   }
