@@ -13,8 +13,8 @@ const message = 'Hello World'
 function App() {
   return (
     <View>
-    <Text style = {{fontSize: 30, marginTop: 30, textAlign: 'center', color: 'red'}}>{message}</Text> // This is known as inline styling of JSX.
-    </View>
+    <Text style = {{fontSize: 30, marginTop: 30, textAlign: 'center', color: 'red'}}>{message}</Text> 
+    </View> // This is known as inline styling of JSX.
   );
 }
 
