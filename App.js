@@ -29,6 +29,13 @@ const internalStyle = StyleSheet.create({
     fontSize: 30,
     backgroundColor: 'teal',
     padding: 30,
+  },
+
+  viewStyle: {
+    backgroundColor: 'black',
+    marginBottom: 50,
+    padding: 40,
+
   }
 });
 
