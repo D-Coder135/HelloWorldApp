@@ -16,7 +16,7 @@ function App() {
     <View style = {internalStyle.viewStyle}>
     <Text style = {{fontSize: 30, marginTop: 30, textAlign: 'center', color: 'red'}}>{message}</Text> 
     <Text style = {internalStyle.textStyle}>{message}</Text>
-    <Text style = {[internalStyle.textStyle, {backgroundColor: 'pink', color: 'yellow'}]}>{message}</Text>
+    <Text style = {[internalStyle.textStyle, {backgroundColor: 'pink', color: 'blue'}]}>{message}</Text>
     </View>
   );
 }
@@ -25,14 +25,14 @@ const internalStyle = StyleSheet.create({
   textStyle: {
     marginTop: 40,
     textAlign: 'center',
-    color: 'blue',
+    color: 'yellow',
     fontSize: 30,
     backgroundColor: 'teal',
     padding: 30,
   },
 
   viewStyle: {
-    backgroundColor: 'yellow',
+    backgroundColor: 'orange',
     marginBottom: 50,
     marginTop: 50,
     padding: 40,
