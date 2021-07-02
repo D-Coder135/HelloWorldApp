@@ -5,6 +5,6 @@ const message = 'Hello World'
 
 class App extends React.Component {
   render () {
-    
+     return <Text></Text>
   }
 }
