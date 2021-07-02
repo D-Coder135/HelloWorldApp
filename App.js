@@ -3,6 +3,7 @@ import {Text} from 'react-native';
 
 const message = 'Hello World'
 
+// Class Component Example
 class App extends React.Component {
   render () {
      return <Text>{message}</Text>
