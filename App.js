@@ -6,7 +6,7 @@ const message = 'Hello World'
 // Class Component Example
 class App extends React.Component {
   render () {
-     return <Text>{message}</Text>
+     return <Text>{message}</Text> // JSX => JavaScript + HTML(CSS)
   }
 }
 
