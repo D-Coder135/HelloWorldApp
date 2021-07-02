@@ -26,7 +26,7 @@ const internalStyle = StyleSheet.create({
     textAlign: 'center',
     color: 'blue',
     fontSize: 30,
-    backgroundColor: 'green',
+    backgroundColor: 'teal',
     padding: 30,
   }
 });
