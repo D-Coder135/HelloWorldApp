@@ -3,12 +3,15 @@ import {View, Text, StyleSheet} from 'react-native';
 
 const message = 'Hello World'
 
-// Class Component Example
+// Class Component Example =>
+
 // class App extends React.Component {
 //   render () {
 //      return <Text>{message}</Text> // JSX => JavaScript + HTML(CSS)
 //   }
 // }
+
+// Function Component Example =>
 
 function App() {
   return (
