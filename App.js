@@ -13,7 +13,7 @@ const message = 'Hello World'
 function App() {
   return {
     <View>
-    
+    <Text> </Text>
 
     </View>
   }
