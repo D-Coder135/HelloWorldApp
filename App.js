@@ -18,4 +18,6 @@ function App() {
   );
 }
 
+const internalStyle = StyleSheet.create({});
+
 export default App // Making our code public similiar to main method of JAVA.
