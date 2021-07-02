@@ -5,6 +5,8 @@ const message = 'Hello World'
 
 class App extends React.Component {
   render () {
-     return <Text>{msg}</Text>
+     return <Text>{message}</Text>
   }
 }
+
+export default App
