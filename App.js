@@ -18,6 +18,15 @@ function App() {
   );
 }
 
-const internalStyle = StyleSheet.create({});
+const internalStyle = StyleSheet.create({
+  textStyle: {
+    marginTop: 40,
+    textAlign: 'center',
+    color: 'blue',
+    fontSize: 30,
+    backgroundColor: 'green',
+    padding: 30,
+  }
+});
 
 export default App // Making our code public similiar to main method of JAVA.
