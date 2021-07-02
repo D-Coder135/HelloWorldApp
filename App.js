@@ -10,4 +10,8 @@ const message = 'Hello World'
 //   }
 // }
 
+function App() {
+  
+}
+
 export default App // Making our code public similiar to main method of JAVA.
