@@ -14,7 +14,7 @@ function App() {
   return (
     <View>
     <Text style = {{fontSize: 30, marginTop: 30, textAlign: 'center', color: 'red'}}>{message}</Text> 
-    <Text></Text>
+    <Text>{message}</Text>
     </View> // This is known as inline styling of JSX.
   );
 }
