@@ -13,7 +13,7 @@ const message = 'Hello World'
 function App() {
   return (
     <View>
-    <Text>{message}</Text>
+    <Text style = {{fontSize: 30, marginTop: 30, textAlign: 'center', color: 'red'}}>{message}</Text>
     </View>
   );
 }
