@@ -11,7 +11,9 @@ const message = 'Hello World'
 // }
 
 function App() {
-  
+  return {
+    
+  }
 }
 
 export default App // Making our code public similiar to main method of JAVA.
